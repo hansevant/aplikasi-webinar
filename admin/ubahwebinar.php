@@ -11,6 +11,7 @@ $payment = $data['foto'];
 $array = explode("_", $payment);
 $nomor_acak = $array[0];
 $nama_file = $array[1];
+$desc = htmlspecialchars($data['deskripsi'])
 ?>
 
 <div class="content">
@@ -21,7 +22,7 @@ $nama_file = $array[1];
                 <div class="card" style="min-height: 80vh;">
                     <div class="card-header">
                         <h3>
-                            <strong class="card-title">Tambah Webinar</strong>
+                            <strong class="card-title">Ubah Webinar</strong>
                         </h3>
                     </div>
                     <div class="card-body">
@@ -36,14 +37,14 @@ $nama_file = $array[1];
                                         <label for="nama" class="form-label">Nama Webinar :</label>
                                         <input type="text" class="form-control" value="<?= $data['nama'] ?>" id="nama" name="nama">
                                     </div>
-                                    <div class="mb-3">
+                                    <!-- <div class="mb-3">
                                         <label for="tanggal" class="form-label">Tanggal :</label>
                                         <input type="date" class="form-control" id="tanggal" name="tanggal">
                                     </div>
                                     <div class="mb-3">
                                         <label for="waktu" class="form-label">Waktu :</label>
                                         <input type="time" class="form-control" id="waktu" name="waktu">
-                                    </div>
+                                    </div> -->
                                     <div class="mb-3">
                                         <label for="foto" class="form-label">Gambar/Banner (1200x300) : <?= $nama_file ?></label>
                                         <img src="../assets/img/events/<?= $data['foto'] ?>" alt=""> <br> <br>
@@ -51,7 +52,7 @@ $nama_file = $array[1];
                                     </div>
                                     <div class="mb-3">
                                         <label for="deskripsi" class="form-label">Deskripsi :</label>
-                                        <input id="deskripsi" type="hidden" name="deskripsi" value="<?= $data['deskripsi'] ?>">
+                                        <input id="deskripsi" type="hidden" name="deskripsi" value="<?= $desc ?>">
                                         <trix-editor input="deskripsi"></trix-editor>
                                     </div>
                                     <button type="submit" class="btn btn-success btn-lg">Submit</button>

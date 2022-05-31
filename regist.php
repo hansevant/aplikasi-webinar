@@ -1,5 +1,11 @@
 <?php include 'functions/connection.php'; ?>
+<?php
+$data = array(
+    "active" => "register"
+);
+?>
 <?php include 'include/header.php'; ?>
+
 <?php session_start();
 $_SESSION['regist'] = FALSE;
 ?>
@@ -81,7 +87,7 @@ $_SESSION['regist'] = FALSE;
                             </select>
                         </div>
 
-                        <button type="submit" class="btn btn-primary mt-2">Daftar</button>
+                        <button type="submit" class="btn btn-dark mt-2">Daftar</button>
                         <button type="reset" class="btn btn-outline-secondary mt-2">Reset</button>
 
                     </form>

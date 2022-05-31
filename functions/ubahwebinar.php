@@ -4,13 +4,13 @@ include 'connection.php';
 // if (isset($_POST["submit"])) {
 
 $nama = mysqli_real_escape_string($con, $_POST['nama']);
-$tanggal = mysqli_real_escape_string($con, $_POST['tanggal']);
-$waktu = mysqli_real_escape_string($con, $_POST['waktu']);
+// $tanggal = mysqli_real_escape_string($con, $_POST['tanggal']);
+// $waktu = mysqli_real_escape_string($con, $_POST['waktu']);
 $deskripsi = mysqli_real_escape_string($con, $_POST['deskripsi']);
 
 // merubah format tanggal dan waktu
-$date = date('d-M-Y', strtotime($tanggal));
-$time = $waktu . " WIB";
+// $date = date('d-M-Y', strtotime($tanggal));
+// $time = $waktu . " WIB";
 
 $id_webinar = $_POST['id_webinar'];
 $nama_foto_lama = $_POST['foto_lama'];
@@ -26,8 +26,6 @@ if ($_FILES['foto']['error'] === 4) {
 
     $query = mysqli_query($con, "UPDATE events SET 
                                             nama = '$nama',
-                                            tanggal = '$date',
-                                            waktu = '$time',
                                             foto = '$foto',
                                             deskripsi = '$deskripsi',
                                             updated_at = current_timestamp()

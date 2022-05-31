@@ -1,18 +1,64 @@
-img.banner{
+:root{
+    --prims: #2A174E;
+}
+
+/* .btn-outline-secondary{
+    border-color: var(--prims) !;
+} */
+
+img.banner {
     width: 1200px;
     height: 300px;
     object-fit: cover;
     margin: auto;
 }
-.cardz{
+
+.cardz {
     transition: 1s;
     height: 150px !important;
     border: none !important;
 }
-.cardz:hover{
+
+.cardz:hover {
     transform: scale(1.04) !important;
 }
-.overlay{
-    background-color: rgba(0,0,0, 0.66);
-     height: 150px !important;
+
+.cardt{
+    margin: 10px 0;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.66);
+    height: 150px !important;
+}
+
+.title {
+    color: var(--bs-indigo);
+}
+
+.card-home{
+    min-height: 90px;
+    max-width: 350px;
+    border: none !important;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.icon{
+    position: absolute;
+    margin-left: 30px;
+}
+
+.text-icon{
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 16px;
+    text-align: left !important;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+.sticky-top{
+    top: 50px !important;
 }

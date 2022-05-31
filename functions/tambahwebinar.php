@@ -4,13 +4,13 @@ include 'connection.php';
 if (isset($_POST["submit"])) {
 
     $nama = mysqli_real_escape_string($con, $_POST['nama']);
-    $tanggal = mysqli_real_escape_string($con, $_POST['tanggal']);
-    $waktu = mysqli_real_escape_string($con, $_POST['waktu']);
+    // $tanggal = mysqli_real_escape_string($con, $_POST['tanggal']);
+    // $waktu = mysqli_real_escape_string($con, $_POST['waktu']);
     $deskripsi = mysqli_real_escape_string($con, $_POST['deskripsi']);
 
     // merubah format tanggal dan waktu
-    $date = date('d-M-Y', strtotime($tanggal));
-    $time = $waktu . " WIB";
+    // $date = date('d-M-Y', strtotime($tanggal));
+    // $time = $waktu . " WIB";
 
     $nomor_acak = round(microtime(true));
     $nama_foto = $_FILES['foto']['name'];
@@ -28,8 +28,8 @@ if (isset($_POST["submit"])) {
 
         @move_uploaded_file($file_tmp, "../assets/img/events/" . $foto);
 
-        $query = mysqli_query($con, "INSERT INTO `events` (`nama`, `tanggal`, `waktu`, `deskripsi`, `foto`) 
-                                        VALUES ('$nama','$date','$time','$deskripsi', '$foto')
+        $query = mysqli_query($con, "INSERT INTO `events` (`nama`, `deskripsi`, `foto`) 
+                                        VALUES ('$nama','$deskripsi', '$foto')
                                         ");
 
         echo "<script>alert('Berhasil....!!!');
