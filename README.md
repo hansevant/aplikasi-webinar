@@ -22,10 +22,6 @@ Aplikasi ini dibuat sebagai tugas penulisan ilmiah saya dengan visual studio cod
 
 ## Installation
 
-Dillinger requires [Node.js](https://nodejs.org/) v10+ to run.
-
-Install the dependencies and devDependencies and start the server.
-
 ```sh
 git clone https://github.com/hansevant/aplikasi-webinar.git
 ```
