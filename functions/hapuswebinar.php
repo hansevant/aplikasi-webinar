@@ -1,5 +1,5 @@
 <?php
-include 'connection.php';
+include '../connection.php';
 // error_reporting(0);
 $id_webinar = $_GET["nama"];
 

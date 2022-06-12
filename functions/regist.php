@@ -1,5 +1,5 @@
 <?php
-include 'connection.php';
+include '../connection.php';
 
 $nama = mysqli_real_escape_string($con, $_POST['nama']);
 $kelas = mysqli_real_escape_string($con, $_POST['kelas']);

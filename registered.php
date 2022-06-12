@@ -1,4 +1,4 @@
-<?php include 'functions/connection.php'; ?>
+<?php include 'connection.php'; ?>
 <?php include 'include/header.php'; ?>
 <?php session_start();
 $_SESSION['regist'] = FALSE;

@@ -1,4 +1,4 @@
-<?php include 'functions/connection.php'; ?>
+<?php include 'connection.php'; ?>
 <?php
 $data = array(
     "active" => "home"

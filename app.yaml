@@ -1,0 +1,15 @@
+runtime: php73
+runtime_config:
+  document_root: penulisan-ilmiah
+handlers:
+  - url: /functions
+    static_dir: functions
+
+  - url: .*
+    script: auto
+    secure: always
+env_variables:
+  MYSQL_HOST: mysql:unix_socket=/cloudsql/august-boulder-352020:asia-southeast2:webinar-pi
+  MYSQL_DB: cloud
+  MYSQL_USER: kaesang
+  MYSQL_PASS: Ngobarwithkopy66
