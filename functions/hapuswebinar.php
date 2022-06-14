@@ -10,7 +10,7 @@ $cek = mysqli_affected_rows($con);
 
 if ($cek > 0) {
     echo "<script> alert('webinar berhasil dihapus'); 
-    location.href='../admin/events.php' </script>";
+    location.href='../admin/' </script>";
     exit;
 } else {
     echo "<script> alert('webinar gagal dihapus'); </script>";

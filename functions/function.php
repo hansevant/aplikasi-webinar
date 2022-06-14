@@ -11,7 +11,7 @@ if (isset($_GET["buka"])) {
 
     if ($cek > 0) {
         echo "<script> alert('webinar berhasil dibuka'); 
-    location.href='../admin/events.php' </script>";
+    location.href='../admin/' </script>";
         exit;
     } else {
         echo "<script> alert('webinar gagal dibuka'); </script>";
@@ -27,7 +27,7 @@ if (isset($_GET["tutup"])) {
 
     if ($cek > 0) {
         echo "<script> alert('webinar berhasil ditutup'); 
-    location.href='../admin/events.php' </script>";
+    location.href='../admin/' </script>";
         exit;
     } else {
         echo "<script> alert('webinar gagal ditutup'); </script>";

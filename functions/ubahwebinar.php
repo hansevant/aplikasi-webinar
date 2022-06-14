@@ -33,7 +33,7 @@ if ($_FILES['foto']['error'] === 4) {
                             ");
 
     echo "<script>alert('Berhasil....!!!');
-    location.href='../admin/events.php';</script>";
+    location.href='../admin/';</script>";
 } else {
     $foto = $nomor_acak . '_' . $nama_foto;
 }
@@ -53,7 +53,7 @@ if ($file_size < 5000000) {
             ");
 
         echo "<script>alert('Berhasil....!!!');
-            location.href='../admin/events.php';</script>";
+            location.href='../admin/';</script>";
     } else {
         echo "<script>alert('Maaf format file berkas selain JPG/PNG tidak di dukung');
             location.href='../admin/tambahwebinar.php';</script>";

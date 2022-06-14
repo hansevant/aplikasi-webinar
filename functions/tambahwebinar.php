@@ -33,7 +33,7 @@ if (isset($_POST["submit"])) {
                                         ");
 
         echo "<script>alert('Berhasil....!!!');
-            location.href='../admin/events.php';</script>";
+            location.href='../admin/';</script>";
     } else {
         echo "<script>alert('Maaf format file berkas selain JPG/PNG tidak di dukung');
             location.href='../admin/tambahwebinar.php';</script>";
