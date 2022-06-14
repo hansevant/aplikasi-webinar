@@ -40,7 +40,7 @@ $judul = mysqli_fetch_array($queries);
         <div class="row">
 
             <div class="col-md-12">
-                <div class="card">
+                <div class="card" style="min-height: 80vh;">
                     <div class="card-header">
                         <strong class="card-title">Data Peserta Webinar <?= $judul['nama']; ?></strong>
                     </div>
