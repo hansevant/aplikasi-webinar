@@ -8,9 +8,9 @@
                 <!-- <li>
                     <a href="registrants.php"><i class="menu-icon fa fa-inbox"></i>Registrants</a>
                 </li> -->
-                <li>
+                <!-- <li>
                     <a href="events.php"><i class="menu-icon fa fa-calendar-o"></i>Events</a>
-                </li>
+                </li> -->
                 <li>
                     <a href="../functions/keluar.php" class="text-danger"><i class="menu-icon fa fa-power-off text-danger"></i>Log out</a>
                 </li>
