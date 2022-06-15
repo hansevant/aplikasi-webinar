@@ -20,7 +20,7 @@ $_SESSION['regist'] = FALSE;
                 <div class="card card-light text-center p-3">
                     <h3 class="card-title ms-3 mt-3">Terimakasih sudah mendaftar</h3>
 
-                    <p>Mohon ditunggu anda akan diinvite kedalam grup webinar tersebut untuk mengetahui info lebih lanjut.. silahkan hubungi CP yang tersedia bila tidak ada informasi lebih lanjut</p>
+                    <p>Mohon ditunggu anda akan diinvite kedalam grup webinar tersebut untuk mengetahui info lebih lanjut.. silahkan hubungi CP yang tersedia bila anda tidak ada diinvite kedalam grup tersebut.</p>
 
                     <a href="./" class="btn btn-primary">Kembali</a>
                 </div>
