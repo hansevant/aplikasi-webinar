@@ -11,22 +11,26 @@ Struktur Folder
 ```
 📦aplikasi-webinar
  ┣ 📂 admin - Halaman khusus admin + login page
- ┃ ┣ 📂assets
- ┃ ┣ 📂partials
- ┃ ┗ 📜users.js
- ┣ 📂prisma - Prisma files (migrations, seeds, schema, model)
- ┃ ┣ 📂migrations
- ┃ ┃ ┣ 📂20220509072107_init
- ┃ ┃ ┃ ┗ 📜migration.sql
- ┃ ┃ ┗ 📜migration_lock.toml
- ┃ ┣ 📜schema.prisma
- ┃ ┗ 📜seed.js
- ┣ 📂routes - Routes for the API
- ┃ ┗ 📜users.js
- ┣ 📜.env.example
- ┣ 📜.gitignore
- ┣ 📜index.js - Server & Main files
+ ┃ ┣ 📂assets (admin assets)
+ ┃ ┣ 📂partials (admin components)
+ ┃ ┃ ┣ 📜footer.php
+ ┃ ┃ ┣ 📜header.php
+ ┃ ┃ ┣ 📜navbar.php
+ ┃ ┃ ┗ 📜sidebar.php
+ ┃ ┣ 📜dashboard.php
+ ┃ ┣ 📜index.php
+ ┃ ┣ 📜registrants.php
+ ┃ ┣ 📜tambahwebinar.php
+ ┃ ┗ 📜ubahwebinar.php
+ ┣ 📂assets (main assets)
+ ┣ 📂db
+ ┃ ┗ 🗃️webinar.sql
+ ┣ 📜about.php
+ ┣ 📜connection.php - database connection file
+ ┣ 📜index.php
  ┣ 📜README.md
+ ┣ 📜regist.php
+ ┣ 📜registered.php
  ┣ 📜webinar.php
  ┗ 📜webinars.php
 ```
