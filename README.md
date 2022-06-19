@@ -25,6 +25,9 @@ Struktur Folder
  ┣ 📂assets (main assets)
  ┣ 📂db
  ┃ ┗ 🗃️webinar.sql
+ ┣ 📂include (main components)
+ ┃ ┣ 📜footer.php
+ ┃ ┗ 📜header.php
  ┣ 📜about.php
  ┣ 📜connection.php - database connection file
  ┣ 📜index.php
