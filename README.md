@@ -28,6 +28,7 @@ Struktur Folder
  ┣ 📂include (main components)
  ┃ ┣ 📜footer.php
  ┃ ┗ 📜header.php
+ ┣ 📜.gitignore
  ┣ 📜about.php
  ┣ 📜connection.php - database connection file
  ┣ 📜index.php
