@@ -25,6 +25,15 @@ Struktur Folder
  ┣ 📂assets (main assets)
  ┣ 📂db
  ┃ ┗ 🗃️webinar.sql
+ ┣ 📂functions
+ ┃ ┣ 📜export.php
+ ┃ ┣ 📜function.php (fungsi buka tutup webinar)
+ ┃ ┣ 📜hapuswebinar.php
+ ┃ ┣ 📜index.php - 404 page
+ ┃ ┣ 📜keluar.php (logout admin)
+ ┃ ┣ 📜regist.php (functions register for user)
+ ┃ ┣ 📜tambahwebinar.php
+ ┃ ┗ 📜ubahwebinar.php
  ┣ 📂include (main components)
  ┃ ┣ 📜footer.php
  ┃ ┗ 📜header.php
