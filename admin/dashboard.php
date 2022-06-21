@@ -97,13 +97,16 @@ $registrants = mysqli_fetch_array(mysqli_query($con, "SELECT COUNT(*) FROM regis
                                         <li class="list-group-item">
                                             <a href="../webinar.php?nama=<?= $data['id_webinar'] ?>"><?= $data['nama']; ?></a>
                                             <a href="../functions/hapuswebinar.php?nama=<?= $data['id_webinar'] ?>" onclick="return confirm('Webinar dan Data peserta akan hilang selamanya, \nApakah anda yakin?')">
-                                                <span class="btn btn-sm btn-dark float-right ml-2">Hapus</span>
+                                                <span class="btn btn-sm btn-danger float-right ml-2">Hapus</span>
                                             </a>
                                             <a href="ubahwebinar.php?nama=<?= $data['id_webinar'] ?>">
                                                 <span class="btn btn-sm btn-warning text-dark float-right ml-2">Ubah</span>
                                             </a>
+                                            <a href="../functions/export.php?nama=<?= $data['id_webinar'] ?>" onclick="return confirm('Unduh data format excel?')">
+                                                <span class="btn btn-sm btn-success float-right ml-2">Export Data</span>
+                                            </a>
                                             <a href="registrants.php?nama=<?= $data['id_webinar'] ?>">
-                                                <span class="btn btn-sm btn-info float-right ml-2">Peserta</span>
+                                                <span class="btn btn-sm btn-info float-right ml-2">Data Peserta</span>
                                             </a>
                                             <div class="dropdown float-right">
                                                 <button class="btn btn-sm btn-outline-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

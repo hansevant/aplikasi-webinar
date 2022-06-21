@@ -52,7 +52,7 @@ $judul = mysqli_fetch_array($queries);
 
                                 <thead>
                                     <tr>
-                                        <th>Name</th>
+                                        <th>Nama</th>
                                         <th>Kelas</th>
                                         <th>NPM</th>
                                         <th>Jurusan</th>
