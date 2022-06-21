@@ -45,8 +45,6 @@ if ($file_size < 5000000) {
 
         $query = mysqli_query($con, "UPDATE events SET 
                                                             nama = '$nama',
-                                                            tanggal = '$tanggal',
-                                                            waktu =' $waktu',
                                                             foto = '$foto',
                                                             deskripsi = '$deskripsi'
                                         WHERE id_webinar = '$id_webinar'
