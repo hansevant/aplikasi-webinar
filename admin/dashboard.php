@@ -89,7 +89,7 @@ $registrants = mysqli_fetch_array(mysqli_query($con, "SELECT COUNT(*) FROM regis
                                 <ol class="list-group">
                                     <?php
 
-                                    $queries = mysqli_query($con, "SELECT * FROM events");
+                                    $queries = mysqli_query($con, "SELECT * FROM events WHERE deleted_at = 0");
                                     while ($data = mysqli_fetch_array($queries)) {
                                         $status = $data['statusnya'];
                                     ?>
