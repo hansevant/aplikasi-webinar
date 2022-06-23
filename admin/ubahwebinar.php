@@ -55,7 +55,7 @@ $desc = htmlspecialchars($data['deskripsi'])
                                         <input id="deskripsi" type="hidden" name="deskripsi" value="<?= $desc ?>">
                                         <trix-editor input="deskripsi"></trix-editor>
                                     </div>
-                                    <button type="submit" class="btn btn-success btn-lg">Submit</button>
+                                    <button type="submit" class="btn btn-primary btn-lg">Submit</button>
                                     <button type="reset" class="btn btn-outline-secondary btn-lg">Reset</button>
                                 </form>
                             </div>

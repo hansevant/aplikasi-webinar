@@ -22,7 +22,7 @@ $_SESSION['regist'] = FALSE;
 
                     <p>Mohon ditunggu anda akan diinvite kedalam grup webinar tersebut untuk mengetahui info lebih lanjut.. silahkan hubungi CP yang tersedia bila anda tidak ada diinvite kedalam grup tersebut.</p>
 
-                    <a href="./" class="btn btn-primary">Kembali</a>
+                    <a href="./" class="btn btn-dark">Kembali</a>
                 </div>
             </div>
         </div>

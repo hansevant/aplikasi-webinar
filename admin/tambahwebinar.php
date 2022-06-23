@@ -39,7 +39,7 @@
                                         <input id="deskripsi" type="hidden" name="deskripsi">
                                         <trix-editor input="deskripsi"></trix-editor>
                                     </div>
-                                    <button type="submit" class="btn btn-success btn-lg" name="submit">Submit</button>
+                                    <button type="submit" class="btn btn-primary btn-lg" name="submit">Submit</button>
                                     <button type="reset" class="btn btn-outline-secondary btn-lg">Reset</button>
 
                                 </form>
