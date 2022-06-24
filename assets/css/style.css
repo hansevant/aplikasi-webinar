@@ -2,9 +2,17 @@
     --prims: #2A174E;
 }
 
-/* .btn-outline-secondary{
-    border-color: var(--prims) !;
-} */
+@media screen and (max-width: 1400px) {
+    .judul {
+      font-size: 44px !important;
+    }
+  }
+
+@media screen and (max-width: 1200px) {
+    .judul {
+      font-size: 32px !important;
+    }
+  }
 
 img.banner {
     width: 1200px;
