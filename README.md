@@ -38,7 +38,6 @@ Struktur Project
  ┃ ┣ 📜footer.php
  ┃ ┗ 📜header.php
  ┣ 📜.gitignore
- ┣ 📜about.php
  ┣ 📜connection.php - database connection file
  ┣ 📜index.php
  ┣ 📜README.md
