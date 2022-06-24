@@ -26,7 +26,7 @@ if (isset($_POST['login'])) {
         location.href = './dashboard.php';
       </script>";
     } else {
-        echo 'jangan ngehack woi';
+        $error = true;
     }
 }
 ?>
@@ -57,15 +57,6 @@ if (isset($_POST['login'])) {
                     <li><a href="../about.php" class="nav-link px-3 text-white">Webinar</a></li>
                     <li><a href="../regist.php" class="nav-link px-3 text-white">Pendaftaran</a></li>
                 </ul>
-
-                <!-- <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
-                    <input type="search" class="form-control form-control-dark text-white bg-dark" placeholder="Search..." aria-label="Search">
-                </form> -->
-
-                <!-- <div class="text-end">
-                    <button type="button" class="btn btn-outline-light me-2">Login</button>
-                    <button type="button" class="btn btn-warning">Sign-up</button>
-                </div> -->
             </div>
         </div>
     </header>
@@ -76,6 +67,12 @@ if (isset($_POST['login'])) {
                 <i class="bi bi-segmented-nav" style="font-size: 5rem;"></i>
             </div>
             <h1 class="h3 mb-3 fw-normal">Please Login</h1>
+            <?php if (isset($error)) {
+                echo '           
+                 <div class="alert alert-danger" role="alert">
+                Username atau Password salah
+            </div>';
+            } ?>
 
             <div class="form-floating mb-1">
                 <input autofocus type="text" class="form-control" name="username" id="floatingInput" placeholder="Username">
