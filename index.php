@@ -25,7 +25,7 @@ $registrants = mysqli_fetch_array(mysqli_query($con, "SELECT COUNT(*) FROM regis
                     <a href="regist.php" class="btn btn-outline-dark btn-lg px-4 me-md-2 fw-bold" data-aos="fade-up" data-aos-duration="500">Daftar Sekarang !</a>
                 </div>
             </div>
-            <div class="col-md-5">
+            <div class="col-lg-5">
                 <div class="row justify-content-center">
                     <div class="col-md-11 mt-3">
                         <div class="card card-home text-center" data-aos="fade-right" data-aos-duration="1000">
