@@ -46,8 +46,8 @@ $desc = htmlspecialchars($data['deskripsi'])
                                         <input type="time" class="form-control" id="waktu" name="waktu">
                                     </div> -->
                                     <div class="mb-3">
-                                        <label for="foto" class="form-label">Gambar/Banner (1200x300) : <?= $nama_file ?></label>
-                                        <img src="../assets/img/events/<?= $data['foto'] ?>" alt=""> <br> <br>
+                                        <label for="foto" class="form-label">Gambar/Banner (1200x300) : <?= $nama_file ?></label> <br>
+                                        <img src="../assets/img/events/<?= $data['foto'] ?>" height="300"> <br> <br>
                                         <input type="file" class="form-control-file" id="foto" name="foto">
                                     </div>
                                     <div class="mb-3">
