@@ -5,13 +5,14 @@ $user   = 'root';
 $pass   = '';
 $db     = 'webinar';
 
+$con    = mysqli_connect($host, $user, $pass, $db) or die("ERROR" . mysqli_connect_error());
+
 // cloud sql
 // $host   = getenv('MYSQL_HOST');
 // $user   = getenv('MYSQL_USER');
 // $pass   = getenv('MYSQL_PASS');
 // $db     = getenv('MYSQL_DB');
 
-$con    = mysqli_connect($host, $user, $pass, $db) or die("ERROR" . mysqli_connect_error());
 
 
 // class connection
