@@ -78,7 +78,7 @@ $registrants = mysqli_fetch_array(mysqli_query($con, "SELECT COUNT(*) FROM regis
                 <div class="card" style="min-height: 80vh;">
                     <div class="card-header">
                         <h3>
-                            <strong class="card-title">Daftar Webinar di lingkungan FIKTI UG</strong>
+                            <strong class="card-title">Daftar Webinar</strong>
                         </h3>
                     </div>
                     <div class="card-body">
