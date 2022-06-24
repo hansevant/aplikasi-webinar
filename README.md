@@ -23,6 +23,8 @@ Struktur Project
  ┃ ┣ 📜tambahwebinar.php
  ┃ ┗ 📜ubahwebinar.php
  ┣ 📂assets (main assets)
+ ┃ ┣ 📂css
+ ┃ ┗ 📂img
  ┣ 📂db
  ┃ ┗ 🗃️webinar.sql
  ┣ 📂functions
