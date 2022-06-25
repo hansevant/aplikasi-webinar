@@ -20,7 +20,7 @@ $data = array(
     <h2><?= $data['nama'] ?></h2>
     <hr>
     <div class="row">
-        <div class="col-9">
+        <div class="col-md-9">
             <p class="deskripsi"><?= $data['deskripsi'] ?></p>
 
             <p></p>
