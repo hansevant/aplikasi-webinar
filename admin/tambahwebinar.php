@@ -22,14 +22,6 @@
                                         <label for="nama" class="form-label">Nama Webinar :</label>
                                         <input type="text" class="form-control" id="nama" name="nama">
                                     </div>
-                                    <!-- <div class="mb-3">
-                                        <label for="tanggal" class="form-label">Tanggal :</label>
-                                        <input type="date" class="form-control" id="tanggal" name="tanggal">
-                                    </div>
-                                    <div class="mb-3">
-                                        <label for="waktu" class="form-label">Waktu :</label>
-                                        <input type="time" class="form-control" id="waktu" name="waktu">
-                                    </div> -->
                                     <div class="mb-3">
                                         <label for="foto" class="form-label">Gambar/Banner (1200x300) :</label>
                                         <input type="file" class="form-control-file" id="foto" name="foto">
