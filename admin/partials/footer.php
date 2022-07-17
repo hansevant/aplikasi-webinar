@@ -4,6 +4,7 @@
     <div class="footer-inner bg-white">
         <div class="row">
             <div class="col-sm-12">
+                <img src="../assets/img/logo.png" width="20">
                 Copyright &copy; 2022 Fakultas Ilmu Komputer dan Teknologi Informasi Universitas Gunadarma
             </div>
         </div>
